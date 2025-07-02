@@ -1,0 +1,32 @@
+# Python build va virtual environment papkalari
+build/
+dist/
+env/
+venv/
+__pycache__/
+*.egg-info/
+
+# PyInstaller va boshqa build fayllari
+*.spec
+
+# Docker fayllari va papkalari
+docker/
+Dockerfile
+.dockerignore
+
+# Test fayllari
+test/
+tests/
+*.test.py
+test_*.py
+
+# Asosiy fayl (main.py) va boshqa kerakmas fayllar
+mainpy
+main.py
+
+# IDE va OS fayllari
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
